@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+	// global vars
 	var sendData = $('.sendData');
 	var baseURL = 'https://api.myjson.com/';
 	var path = 'bins/';
@@ -8,6 +9,7 @@ $(document).ready(function(){
 	var writeData = $('#csv');
 	var inputData = $('#json');
 
+	// read local file data from csv
 	readDataIntoInput = function(){
 		var file = 'data/tournament.csv';
 		$.ajax({
@@ -24,6 +26,7 @@ $(document).ready(function(){
 	
 	var wrapper = $('#tournamentData');
 		
+	// push the json data to the api
 	sendData.on('click',function(){
 		var data = inputData.val();
 		wrapper.empty();
@@ -117,6 +120,7 @@ $(document).ready(function(){
 		return str;
 	}
 
+	// convert csv to json
 	$("#convert").click(function() {
 		var csv = $("#csv").val();
 		var json = CSV2JSON(csv);
@@ -125,6 +129,7 @@ $(document).ready(function(){
 		return false;
 	});
 
+	// download json
 	$("#download").click(function() {
 		var csv = $("#csv").val();
 		var json = CSV2JSON(csv);
@@ -132,6 +137,7 @@ $(document).ready(function(){
 		return false;
 	});
 
+	// check we have some input before we can send the data
 	chValue = function(){
 		if($('#json').val().length > 0){
 			sendData.removeClass('disabled');
