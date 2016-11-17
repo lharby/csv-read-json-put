@@ -1,0 +1,165 @@
+body {
+	font: normal 11px sans-serif;
+	margin:0;
+	padding:0;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin:100px auto;
+	background:#EEE;
+}
+
+.textInput {
+	width:100%;
+	border:1px solid #DDD;
+	padding:8px 0px;
+}
+
+.rounded {
+	display: inline-block;
+	background:#333;
+	text-decoration:none;
+	padding:4px 8px;
+	border-radius:12px;
+	color:#FFF;
+	margin: 10px 0;
+    transition: all 100ms ease-in;
+}
+
+.rounded:hover {
+    background:#555;
+    transition: all 100ms ease-in;
+}
+
+.sendData {
+    background:#0D9E1E;
+}
+
+.sendData:hover {
+    background:#1EAF2F;
+}
+
+.disabled {
+    background:#DDD;
+    pointer-events: none;
+}
+
+/* -------------------------------
+	CLEARFIX FLOATING FIXES
+---------------------------------- */
+.clearfix:after { 
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+.clear { overflow:hidden; clear:both; height:1px; margin:-1px 0px 0px 0px; font-size:1px; }
+.clear-simple {clear:both; }
+
+/*
+---------------------------------
+LEAGUE
+---------------------------------
+*/
+
+.tournamentData {
+	margin:0;
+	padding:0;
+	color:#FFF;
+    list-style:none;
+    font-size: 13px;
+}
+
+.tournamentData li {
+	display: flex;
+    text-align: center;
+    list-style: none!important;
+    line-height:30px!important;
+}
+
+.tournamentData li:nth-child(even){
+        background:#F9F9F9!important;
+}
+
+.tournamentData li:nth-child(even){
+    /*background: #444!important;*/
+}
+
+.tournamentData li .title {
+    width: 40%;
+    text-align: left;
+    background:rgba(0,0,0,.3)!important;
+}
+
+.tournamentData li span {
+    float:left;
+    background:rgba(0,0,0,.3);
+    height:30px;
+    width:10%;
+}
+
+.tournamentData li .wide {
+    width:40%;
+}
+
+.tournamentData li span:last-child {
+    color: #EEFF00;
+}
+
+.tournamentData li span:nth-child(even) {
+    background:#333;
+}
+
+.tournamentData li span:nth-child(odd){
+    background:#444;
+}
+
+.tournamentData .header {
+    background: #333;
+    color: #FFF;
+}
+
+.tournamentData .header span {
+    background: #333!important;
+}
+
+.noFormat {
+    color:transparent;
+    background:#000!important;
+}
+
+.winning {
+    color:#FFF;
+    animation: colorchange .75s infinite; 
+    -webkit-animation: colorchange .75s infinite;
+}
+
+@keyframes colorchange {
+    15% {
+        background: #000;
+    }
+    30% {
+        background: #444;
+    }
+}
+
+@-webkit-keyframes colorchange {
+    15% {
+        background: #000;
+    }
+    30% {
+        background: #444;
+    }
+}
+
+.text { 
+  width: 99%; 
+  height: 70px; 
+}

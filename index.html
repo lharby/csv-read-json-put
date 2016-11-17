@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="wrapper clearfix">
+		<textarea id="csv" class="text">
+"Id","UserName"
+"1","Sam Smith"
+"2","Fred Frankly"
+"1","Zachary Zupers"</textarea>
+	    <br />
+	    <a href="#" id="convert" class="rounded">Convert to JSON</a>
+	    <a href="#" id="download" class="rounded">Download JSON</a>
+	    <textarea id="json" class="text textInput"></textarea>
+		<a href="#" class="sendData rounded disabled">Submit</a>
+		<ul class="tournamentData">
+			<li class="header">
+				<span>Position</span>
+				<span class="wide">Team</span>
+				<span>Played</span>
+				<span>Won</span>
+				<span>Lost</span>
+				<span>Difference</span>
+				<span>Points</span>
+			</li>
+		</ul>
+		<ul class="tournamentData" id="tournamentData"></ul>		
+	</div>
+	<script type="text/javascript" src="js/sendData.js"></script>
+</body>
+</html>

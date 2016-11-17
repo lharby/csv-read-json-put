@@ -1,0 +1,74 @@
+[
+  {
+    "Position": 1,
+    "Teams": "Luke/Mike",
+    "Played": 6,
+    "Won": 4,
+    "Lost": 2,
+    "Score Difference": 14,
+    "Points": 8
+  },
+  {
+    "Position": 2,
+    "Teams": "Stefan/Kerri",
+    "Played": 6,
+    "Won": 4,
+    "Lost": 2,
+    "Score Difference": 12,
+    "Points": 8
+  },
+  {
+    "Position": 3,
+    "Teams": "Kevin/Mark",
+    "Played": 3,
+    "Won": 3,
+    "Lost": 0,
+    "Score Difference": 27,
+    "Points": 6
+  },
+  {
+    "Position": 4,
+    "Teams": "Nolan/Dan",
+    "Played": 5,
+    "Won": 3,
+    "Lost": 2,
+    "Score Difference": 5,
+    "Points": 6
+  },
+  {
+    "Position": 5,
+    "Teams": "Rich J/Jake",
+    "Played": 7,
+    "Won": 3,
+    "Lost": 4,
+    "Score Difference": 2,
+    "Points": 6
+  },
+  {
+    "Position": 6,
+    "Teams": "Adam/Andrew",
+    "Played": 6,
+    "Won": 3,
+    "Lost": 3,
+    "Score Difference": -6,
+    "Points": 6
+  },
+  {
+    "Position": 7,
+    "Teams": "Martin/Roz",
+    "Played": 6,
+    "Won": 3,
+    "Lost": 3,
+    "Score Difference": -6,
+    "Points": 6
+  },
+  {
+    "Position": 8,
+    "Teams": "Rich C/Reece",
+    "Played": 7,
+    "Won": 0,
+    "Lost": 7,
+    "Score Difference": -47,
+    "Points": 0
+  }
+]
