@@ -8,12 +8,13 @@ body {
 	max-width: 1200px;
 	margin:100px auto;
 	background:#EEE;
+    padding:26px;
 }
 
-.textInput {
+.text {
 	width:100%;
 	border:1px solid #DDD;
-	padding:8px 0px;
+    height:70px;
 }
 
 .rounded {
@@ -157,9 +158,4 @@ LEAGUE
     30% {
         background: #444;
     }
-}
-
-.text { 
-  width: 99%; 
-  height: 70px; 
 }

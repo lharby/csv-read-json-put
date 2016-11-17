@@ -2,11 +2,11 @@ $(document).ready(function(){
 
 	var sendData = $('.sendData');
 	var baseURL = 'https://api.myjson.com/';
-	//var id = '5awzg'; // kk id
 	var path = 'bins/';
+	//var id = '5awzg'; // kk id
 	var id = '3jdq2';
 	var writeData = $('#csv');
-	var inputData = $('.textInput');
+	var inputData = $('#json');
 
 	readDataIntoInput = function(){
 		var file = 'data/tournament.csv';
@@ -122,12 +122,14 @@ $(document).ready(function(){
 		var json = CSV2JSON(csv);
 		$("#json").val(json);
 		chValue();
+		return false;
 	});
 
 	$("#download").click(function() {
 		var csv = $("#csv").val();
 		var json = CSV2JSON(csv);
-		window.open("data:text/json;charset=utf-8," + escape(json))
+		window.open("data:text/json;charset=utf-8," + escape(json));
+		return false;
 	});
 
 	chValue = function(){
