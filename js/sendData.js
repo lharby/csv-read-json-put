@@ -146,7 +146,7 @@ $(document).ready(function(){
 		}
 	}
 
-	$('#json').on('blur',function(){
+	inputData.on('blur',function(){
 		chValue();
 	});
 
