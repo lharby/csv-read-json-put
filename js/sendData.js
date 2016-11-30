@@ -139,7 +139,7 @@ $(document).ready(function(){
 
 	// check we have some input before we can send the data
 	chValue = function(){
-		if($('#json').val().length > 0){
+		if(inputData.val().length > 0){
 			sendData.removeClass('disabled');
 		}else{
 			sendData.addClass('disabled');
