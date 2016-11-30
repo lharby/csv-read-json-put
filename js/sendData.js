@@ -45,6 +45,7 @@ $(document).ready(function(){
 			  console.log('Error');
 			}
 		});
+		return false;
 	});
 
 	// Source: http://www.bennadel.com/blog/1504-Ask-Ben-Parsing-CSV-Strings-With-Javascript-Exec-Regular-Expression-Command.htm
