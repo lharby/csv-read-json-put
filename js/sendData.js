@@ -4,7 +4,6 @@ $(document).ready(function(){
 	var sendData = $('.sendData');
 	var baseURL = 'https://api.myjson.com/';
 	var path = 'bins/';
-	//var id = '5awzg'; // kk id
 	var id = '3jdq2';
 	var writeData = $('#csv');
 	var inputData = $('#json');
